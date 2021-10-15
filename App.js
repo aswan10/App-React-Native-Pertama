@@ -73,6 +73,9 @@ const App: () => Node = () => {
           <Text>
             Hello World! 
           </Text>
+          <Text>
+            wanHEX was Here!
+          </Text>
         
         </View>
       </ScrollView>
