@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import {Text,View, Image, TextInput, StyleSheet, ScrollView} from "react-native";
-import macbook from './macbook.jpg';
+import macbook from '../../assets/Image/macbook.jpg';
 
-const StylingReactNativeComponent = () => {
+const StylingComponent = () => {
     return (
       <View>
         <Text style={styles.text}>Styling Component</Text>
@@ -41,4 +41,4 @@ const StylingReactNativeComponent = () => {
     }
   })
 
-  export default StylingReactNativeComponent;
+  export default StylingComponent;
